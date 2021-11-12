@@ -1,0 +1,42 @@
+@import './font/stylesheet.css';
+@import './responsive.css';
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #161F38;
+  font-family: 'Gilroy';
+  scrollbar-color: #161f38;
+}
+html::-webkit-scrollbar {
+  width: 0;
+}
+.a-c {
+  display: flex;
+  align-items: center;
+}
+.j-c {
+  display: flex;
+  justify-content: center;
+}
+.c-p {
+  cursor: pointer;
+}
+.wave {
+  animation-name: wave-animation;  
+  animation-duration: 2.5s;      
+  animation-iteration-count: infinite;  
+  transform-origin: 70% 70%;       
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  
+  100% { transform: rotate( 0.0deg) }
+}
