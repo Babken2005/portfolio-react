@@ -1,7 +1,7 @@
 function Home() {
   return (
     <div className="home">
-      <h1 data-aos="fade-up" data-aos-duration="2400" className="wave">👋</h1>
+      <h1 data-aos="fade-up" data-aos-duration="2400" className="wave">✌️</h1>
       <div className="homeContent a-c j-c">
         <div className="homeContentParent">
         <div className="block-1 contentTextBlock a-c"><div className="block-1-parent textParent a-c"><div data-aos="fade-up" data-aos-duration="1400">U</div><div data-aos="fade-up" data-aos-duration="1550">n</div><div data-aos="fade-up" data-aos-duration="1700">i</div><div data-aos="fade-up" data-aos-duration="1850">q</div><div data-aos="fade-up" data-aos-duration="2000">u</div><div data-aos="fade-up" data-aos-duration="2150">e<span>.</span></div></div></div>
